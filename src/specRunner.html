@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Jasmine Spec Runner</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/jasmine-core/lib/jasmine-core/jasmine.css">
+
+    <script type="x-tmpl-mustache" id="listItem-mst">
+        <a href="#" class="list-group-item list-group-item-success">{{name}}</a>
+    </script>
+
+    <script type="application/javascript" src="bower_components/mustache.js/mustache.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+    <script src="bower_components/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="bower_components/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+    <!-- include source files here... -->
+    <script src="main/AppTools.js"></script>
+    <script src="main/Logger.js"></script>
+    <script src="main/ExpiringCache.js"></script>
+    <script src="main/CentralConfigurationRepositoryClient.js"></script>
+
+    <!-- include spec files here... -->
+    <script src="test/Utils.js"></script>
+    <script src="test/MockAjaxProvider.js"></script>
+    <script src="test/TestLoggingSink.js"></script>
+    <script src="test/ExpiringCacheSpec.js"></script>
+    <script src="test/CentralConfigurationRepositoryClientSpec.js"></script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "ccr-client-coffee",
+  "homepage": "https://github.com/ciroque/ccr-client-coffee",
+  "authors": [
+    "Steve <ciroque@live.com>"
+  ],
+  "description": "CoffeeScript client for Central Configuration Repository",
+  "main": "src/main/CentralConfigurationRepositoryClient.coffee",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "configuration",
+    "repository",
+    "client",
+    "settings",
+    "ccr"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.5",
+    "jasmine-core": "~2.3.4",
+    "mustache.js": "~2.2.0",
+    "jquery": "~2.1.4"
+  }
+}
